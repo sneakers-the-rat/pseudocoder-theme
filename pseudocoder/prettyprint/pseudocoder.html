@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>pseudocoder</title>
+<style>
+
+/* ------ START OF THEME ------ */
+
+/*
+ * pseudocoder
+ * Prettify CSS Theme.
+ *
+ * Copyright (c) 2019 Jonny Saunders
+ */
+
+pre.theme-pseudocoder {
+  background-color: #121419;
+  padding: 2em;
+  font-size:.7em;
+  color: #dee3ec;
+}
+
+pre.theme-pseudocoder code {
+  font-family: 'Source Code Pro', Monaco, Consolas, "Lucida Console", monospace;
+}
+
+pre.theme-pseudocoder .pln {
+  color: #dee3ec;
+}
+
+pre.theme-pseudocoder .str {
+  color: #F9CD0F;
+}
+pre.theme-pseudocoder .kwd {
+  color: #26A6A6;
+}
+pre.theme-pseudocoder .com {
+  color: #6E7A94;
+}
+pre.theme-pseudocoder .typ {
+  color: #FF522C;
+}
+pre.theme-pseudocoder .lit {
+  color: #F9CD0F;
+}
+pre.theme-pseudocoder .pun,
+pre.theme-pseudocoder .opn,
+pre.theme-pseudocoder .clo {
+  color: #dee3ec;
+}
+pre.theme-pseudocoder .tag {
+  color: #26A6A6;
+}
+pre.theme-pseudocoder .atn {
+  color: #FF522C;
+}
+pre.theme-pseudocoder .atv {
+  color: #F9CD0F;
+}
+pre.theme-pseudocoder .dec,
+pre.theme-pseudocoder .var {
+  color: #F9CD0F;
+}
+pre.theme-pseudocoder .fun {
+  color: #26A6A6;
+}
+
+
+/* ------- END OF THEME ------- */
+
+</style>
+</head>
+<body>
+
+<h1>PrettyPrint</h1>
+
+<p>This theme is for <a href="https://code.google.com/p/google-code-prettify/">Google Code Prettify</a> which can be used to syntax highlight code within a &ltpre&gt; tag.</p>
+
+<p>To use, simply copy and paste the CSS from the source of this document into your project, and use with an existing code prettify setup. You can either add the 'theme-pseudocoder' class each &ltpre&gt; element, or just remove it from the CSS to style all of them.</p>
+
+<p>Enjoy!</p>
+
+<pre class="theme-pseudocoder"><code><span class="pun">&lt;?</span><span class="pln">php
+
+</span><span class="com">// app/controllers/ArticleController.php</span><span class="pln">
+
+</span><span class="kwd">class</span><span class="pln"> </span><span class="typ">ArticleController</span><span class="pln"> </span><span class="kwd">extends</span><span class="pln"> </span><span class="typ">BaseController</span><span class="pln">
+</span><span class="pun">{</span><span class="pln">
+    </span><span class="kwd">public</span><span class="pln"> </span><span class="kwd">function</span><span class="pln"> showIndex</span><span class="pun">()</span><span class="pln">
+    </span><span class="pun">{</span><span class="pln">
+        </span><span class="kwd">return</span><span class="pln"> </span><span class="typ">View</span><span class="pun">::</span><span class="pln">make</span><span class="pun">(</span><span class="str">'index'</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+
+    </span><span class="kwd">public</span><span class="pln"> </span><span class="kwd">function</span><span class="pln"> showSingle</span><span class="pun">(</span><span class="pln">$articleId</span><span class="pun">)</span><span class="pln">
+    </span><span class="pun">{</span><span class="pln">
+        </span><span class="kwd">return</span><span class="pln"> </span><span class="typ">View</span><span class="pun">::</span><span class="pln">make</span><span class="pun">(</span><span class="str">'single'</span><span class="pun">);</span><span class="pln">
+    </span><span class="pun">}</span><span class="pln">
+</span><span class="pun">}</span></code></pre>
+
+</body>
+</html>
+
