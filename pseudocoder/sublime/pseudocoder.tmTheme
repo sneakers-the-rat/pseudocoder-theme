@@ -5,7 +5,7 @@
 pseudocoder
 ======================================================================
 A Sublime Text 2 / Textmate theme.
-Copyright (c) 2019 Jonny Saunders.
+Copyright (c) 2020 Jonny Saunders.
 Released under the MIT License <http://opensource.org/licenses/MIT>
 ======================================================================
 Find more themes at : https://github.com/daylerees/colour-schemes
@@ -193,7 +193,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <key>name</key>
             <string>Function name</string>
             <key>scope</key>
-            <string>entity.name.function</string>
+            <string>entity.name.function, support.function, meta.function</string>
             <key>settings</key>
             <dict>
                 <key>fontStyle</key>
@@ -539,6 +539,7 @@ Find more themes at : https://github.com/daylerees/colour-schemes
                 <string>#26A6A6</string>
             </dict>
         </dict>
+        
         <dict>
             <key>name</key>
             <string>Function argument</string>
@@ -769,6 +770,89 @@ Find more themes at : https://github.com/daylerees/colour-schemes
             <dict>
                 <key>foreground</key>
                 <string>#F9CD0F</string>
+            </dict>
+        </dict>
+
+        <!-- LaTeX -->
+        <dict>
+            <key>name</key>
+            <string>Escape character</string>
+            <key>scope</key>
+            <string>constant.character.escape.tex</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DEE3EC</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>LaTeX Functions</string>
+            <key>scope</key>
+            <string>support.function.latex, support.function.general.latex</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF522C</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Bold Latex</string>
+            <key>scope</key>
+            <string>markup.bold</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#dee3ec</string>
+                                <key>fontStyle</key>
+                <string>bold</string>
+            </dict>
+        </dict>
+                <dict>
+            <key>name</key>
+            <string>ITALIC Latex</string>
+            <key>scope</key>
+            <string>markup.italic</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#dee3ec</string>
+                                <key>fontStyle</key>
+                <string>italic</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Latex Braces</string>
+            <key>scope</key>
+            <string>punctuation.definition.group.brace.begin.latex, punctuation.definition.group.brace.end.latex</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FF522C</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Latex Constants</string>
+            <key>scope</key>
+            <string>text.tex.latex constant.character</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#F9CD0F</string>
+            </dict>
+        </dict>
+                <dict>
+            <key>name</key>
+            <string>Latex Entities</string>
+            <key>scope</key>
+            <string>text.tex.latex entity.name, text.tex.latex support.class</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#25D311</string>
             </dict>
         </dict>
     </array>
