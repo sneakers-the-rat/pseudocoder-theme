@@ -43,7 +43,7 @@
     <option name="SELECTED_TEARLINE_COLOR" value="787878" />
     <option name="SELECTION_BACKGROUND" value="{{ selection_background_h }}" />
     <option name="SELECTION_FOREGROUND" value="{{ selection_foreground_h }}" />
-    <option name="TEARLINE_COLOR" value="303134" />
+    <option name="TEARLINE_COLOR" value="{{ gutter_border }}" />
     <option name="WHITESPACES" value="{{ whitespaces_h }}" />
 
   </colors>
